@@ -1,0 +1,28 @@
+{
+  "name": "typescript-project-template",
+  "version": "1.0.0",
+  "description": "Typescript project template",
+  "type": "module",
+  "main": "build/main.js",
+  "module": "build/main.js",
+  "typings": "build/types/lib.d.ts",
+  "scripts": {
+    "start": "ts-node ./src/main.ts",
+    "prebuild": "rimraf build",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebundleType": "npm run build",
+    "bundleType": "api-extractor run --local --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "@types/node": "^18.15.11",
+    "rimraf": "^4.4.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
