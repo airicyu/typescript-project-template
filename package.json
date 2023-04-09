@@ -19,6 +19,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@microsoft/api-extractor": "^7.34.4",
     "@tsconfig/node18": "^1.0.1",
     "@types/node": "^18.15.11",
     "rimraf": "^4.4.1",
