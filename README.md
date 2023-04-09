@@ -1,6 +1,6 @@
 # typescript-project-template
 
-This is a minimum but good enough setup for Typescript project template.
+This is a minimum but good enough setup for Typescript project template (NodeJS).
 
 It contains:
 - Setup of typescript, ts-node dependencies and tsconfig.json.
